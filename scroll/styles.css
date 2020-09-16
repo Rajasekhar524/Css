@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    color:#ecf0f1;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style:none; 
+}
+
+ul li {
+    display:inline-block;
+    padding:10px 15px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration:none;
+    text-transform: uppercase;
+    padding:15px 20px;
+    border-radius:8px;
+}
+
+nav a:hover{
+    background-color: yellow;
+    color:#2c3e50;
+}
+
+nav a.active {
+    background: #1abc9c;
+}
+
+#main-menu{
+    position:fixed;
+    text-align: center;
+}
+p {
+    width: 40%;
+}
+section{
+    width:100%;
+    margin:0;
+    padding:100px;
+}
+
+#section1 {
+    background-image: url("./images/pexels-camila-cordeiro-4932864.jpg");
+    background-size:cover;
+    height: 100vh;
+    background-position:center;
+    
+}
+#section2 {
+    background-image: url("./images/photo-1542044896530-05d85be9b11a.jfif");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+#section3 {
+    background-image: url("./images/pexels-camila-cordeiro-4932864.jpg");
+    background-size:cover;
+    background-position:center;
+}
+#section4 {
+    background-image: url("./images/photo-1542044896530-05d85be9b11a.jfif");
+    background-attachment: fixed;
+    
+}
+
+#section5 {
+    background-image: url("./images/256417221.jpg.gallery.jpg");
+    background-size:cover;
+}
